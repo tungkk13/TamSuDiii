@@ -102,6 +102,7 @@ h1 {
     padding: 15px;
     border-radius: 15px;
     transition: all 0.5s;
+    border: none;
 }
 
 .button:hover,
@@ -155,12 +156,12 @@ h3 {
     font-style: normal;
     font-size: 100%;
     width: 100%;
-    border-radius: 30px;
+    border-radius: 50%;
 }
 
 .mood__answer-list__1 li .button{
-    font-style: normal;
-    font-weight: 800;
+    font-size: 130%;
+    font-weight: 600;
     width: 100px;
     border-radius: 30px;
 }
@@ -186,7 +187,7 @@ textarea.mood__textarea {
     font-size: 100%;
 }
 
-.mood__form_yes input {
+.mood__form__yes input {
     border: none;
     margin-top: 10px;
     font-size: 90%;
@@ -199,8 +200,7 @@ textarea.mood__textarea:focus {
     background-color: rgba(35, 34, 34, 0.7);
 }
 
-#click-no {
+.mood__question, .mood__question__1, .mood__form__yes,
+.click-no {
     display: none;
 }
-
-
