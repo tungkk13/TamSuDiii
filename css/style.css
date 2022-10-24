@@ -115,7 +115,7 @@ section {
     padding: 20px;
 }
 
-.mood-section {
+.mood {
     background-image: linear-gradient(100deg ,rgba(54, 65, 54, 0.8) 60%, rgba(86, 98, 80, 0.8)), url("../img/background1.jpg");
     background-size: cover;
     height: 100vh;
@@ -147,31 +147,31 @@ h3 {
    font-size: 120%;
 }
 
-.answer-list li , .answer-list-1 li{
+.mood__answer-list li , .mood__answer-list__1 li{
     list-style: none;
 }
 
-.answer-list li .button{
+.mood__answer-list li .button{
     font-style: normal;
     font-size: 100%;
     width: 100%;
     border-radius: 30px;
 }
 
-.answer-list-1 li .button{
+.mood__answer-list__1 li .button{
     font-style: normal;
     font-weight: 800;
     width: 100px;
     border-radius: 30px;
 }
 
-.answer-list, .answer-list-1{
+.mood__answer-list, .mood__answer-list__1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-textarea {
+textarea.mood__textarea {
     display: block;
     color: aliceblue;
     border: 2px solid rgba(193, 240, 190, 0.6);
@@ -186,14 +186,14 @@ textarea {
     font-size: 100%;
 }
 
-.form input {
+.mood__form_yes input {
     border: none;
     margin-top: 10px;
     font-size: 90%;
-    
+
 }
 
-textarea:focus {
+textarea.mood__textarea:focus {
     outline: none;
     color: white;
     background-color: rgba(35, 34, 34, 0.7);
