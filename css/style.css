@@ -173,6 +173,7 @@ h3 {
 
 textarea {
     display: block;
+    color: aliceblue;
     border: 2px solid rgba(193, 240, 190, 0.6);
     padding: 3px 7px;
     height: 90px;
